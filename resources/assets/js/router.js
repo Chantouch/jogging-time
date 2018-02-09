@@ -46,6 +46,9 @@ const routes = [
 const router = new VueRouter({
   routes,
   history: false,
+  scrollBehavior (to, from, savedPosition) {
+    return {x: 0, y: 0}
+  },
 })
 
 // Sync Vuex and vue-router;

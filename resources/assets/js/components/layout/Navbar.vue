@@ -23,7 +23,7 @@
 
         <ul class="nav navbar-nav navbar-left">
           <li class="github-menu-item">
-            <a class="github-button" href="https://github.com/vedmant/jogging-time" data-size="large" data-show-count="true" aria-label="Star vedmant/jogging-time on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/Chantouch/jogging-time" data-size="large" data-show-count="true" aria-label="Star Chantouch/jogging-time on GitHub">Star</a>
           </li>
         </ul>
 

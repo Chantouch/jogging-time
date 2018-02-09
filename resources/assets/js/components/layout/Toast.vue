@@ -131,7 +131,7 @@
         validator (value) {
           return /^(:?n|s|nw|ne|sw|se)$/.test(value)
         },
-        default: 'ne',
+        'default': 'ne',
       }
     },
 

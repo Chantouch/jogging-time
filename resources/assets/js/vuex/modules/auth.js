@@ -40,6 +40,7 @@ const actions = {
       Vue.http.post(Config.apiPath + 'auth/login', form)
         .then(
           response => {
+            console.log(response.data)
             const accessToken = response.data.access_token
             localStorage.setItem('access_token', accessToken)
 

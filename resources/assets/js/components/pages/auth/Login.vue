@@ -35,9 +35,23 @@
                 </div>
               </div>
 
+                <div class="form-group has-success">
+                    <label for="remember" class="col-md-4 control-label"></label>
+                    <div class="col-md-6">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" name="remember" id="remember" v-model="form.remember">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Remember me</span>
+                        </label>
+                    </div>
+                </div>
+
               <div class="form-group">
                 <div class="col-md-8 col-md-offset-4">
                   <button type="submit" class="btn btn-primary">Login</button>
+                    <a href="#" class="btn btn-link px-0">
+                        Forgot password?
+                    </a>
                 </div>
               </div>
             </form>
@@ -58,6 +72,7 @@
         form: {
           email: Laravel.demoMode ? 'admin@gmail.com' : '',
           password: Laravel.demoMode ? '123456' : '',
+          remember: Laravel.demoMode ? true : '',
         },
         error: '',
         errors: {},
